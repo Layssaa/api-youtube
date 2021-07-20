@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: #121214;
+}
+
+#menu{
+    position: absolute;
+    width: 70px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    
+    background: #0B0B0C;
+}
+
+#icon-menu{
+    position: absolute;
+    width: 35px;
+    height: 19px;
+    left: 11px;
+    top: 22px;
+}
+
+#movie-list{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    right: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: #121214;
+}
+
+#black-widow{
+    top: 41px;
+}
+
+#eternals{
+    top: 159px;
+}
+
+#doctor-strange{
+    top: 277px;
+}
+
+#loki{
+    top: 395px;
+}
+
+#what-if{
+    top: 513px;
+}
+iframe{
+    width: 729px;
+    height: 336px;
+    margin-left: 208px;
+    top: 20px;
+    border-radius: 4px;
+    margin-bottom: 1px;
+}
+
+ .ui-tabs{
+    background-color: #121214;
+    border: none;
+    margin-top: 5px;
+}
+
+.ui-tabs-nav{
+    padding-left: 10px;
+    overflow: hidden;
+    background-color: #121214;
+    border: none;
+    margin-left: 0px;
+
+}
+.ui-tabs .ui-tabs-nav{
+    margin-left: 0px;
+}
+.ui-tabs-tab{
+    border: none;
+
+}
+.ui-tabs-active{
+    border: none;
+
+}
+
+.ui-tabs-anchor{
+    background-color: #121214;
+    border: none;
+
+}
+
+.ui-tabs-panel{
+    border: none;
+
+}
+
+.ui-tabs .ui-corner-all .ui-widget .ui-widget-content{
+    border: none;
+}
+
+.ui-tabs-anchor{
+    border: none;
+}
+
+.ui-tabs-tab .ui-corner-top .ui-state-default .ui-tab{
+    border: none;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+   border: none; 
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    background-color: #202024;
+    color: #FFFFFF;
+}
+
+/* hover */
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus{
+   background-color: #29292E;
+}
+
+.ui-widget-content{
+   background-color:  #1A1A1E;
+   color: #FFFFFF;
+   font-family: 'Poppins', sans-serif;
+   border: none;
+}
+
+.ui-accordion .ui-accordion-content{
+    height: 40px;
+    overflow: hidden;
+}
+
+.description, .duration, .author{
+    padding-left: 20px;
+}
+.accordion h3{
+padding-left: 10px;
+}

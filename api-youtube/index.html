@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <title>Movies</title>
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="menu">
+        <img id="icon-menu" src="./images/menu.svg">
+    </div>
+    <main id="display-area">
+    </main>
+
+    <div id="movie-list">
+        <ul style="display: flex; justify-content: space-evenly; margin-bottom: 10px;">
+            <li> <a href="#movie-1">
+                    <img src="./images/blackwidow.jpg" value="1" class="tab" id="black-widow" width="150px" />
+                </a>
+            </li>
+            <li> <a href="#movie-2">
+                    <img src="./images/eternals.jpg" value="2" class="tab" id="eternals" width="150px" />
+                </a>
+            </li>
+            <li> <a href="#movie-3">
+                    <img src="./images/doctorstrange.jpg" value="3" class="tab" id="doctor-strange" width="150px" />
+                </a>
+            </li>
+            <li> <a href="#movie-4">
+                    <img src="./images/loki.jpg" value="4" class="tab" id="loki" width="150px" />
+                </a>
+            </li>
+            <li> <a href="#movie-5">
+                    <img src="./images/whatif.jpg" value="5" class="tab" id="what-if" width="150px" />
+                </a>
+            </li>
+        </ul>
+        <div id="movie-1">
+        </div>
+        <div id="movie-2">
+        </div>
+        <div id="movie-3">
+        </div>
+        <div id="movie-4">
+
+        </div>
+        <div id="movie-5">
+        </div>
+        <div class="accordion">
+            <h3 style="height: 40px;">Título</h3>
+            <div class="description">
+            </div>
+            <h3 style="height: 40px;">Duração</h3>
+            <div class="duration">
+                <p></p>
+            </div>
+            <h3 style="height: 40px;">Autor</h3>
+            <div class="author">
+                <p></p>
+            </div>
+
+        </div>
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="./js/script.js"></script>
+
+</html>
